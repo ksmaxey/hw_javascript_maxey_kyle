@@ -45,3 +45,10 @@ var presidents = [
 ];
 
 console.log(presidents[2].firstName, presidents[2].lastName);
+
+function howdy(name, message) {
+    return name + ' says ' + message;
+}
+
+var message = howdy('Kyle Maxey', 'Welcome to my site!');
+console.log(message);
