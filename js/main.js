@@ -39,3 +39,15 @@ var numba = function (string) {
 numba(7);
 numba('seventy');
 numba('university');
+
+//Movie
+
+function inception(display, favMovie) {
+    display(favMovie);
+}
+
+function frustrated(favMovie) {
+    console.log(favMovie + ' ' + 'is a fantastic movie.');
+}
+
+inception(frustrated, 'Pulp Fiction');
