@@ -18,25 +18,24 @@ console.log(presidents[2].firstName, presidents[2].lastName);
 //Function Declaration
 
 function howdy(name, message) {
-    return name + ' says ' + message;
+    console.log(name + ' says ' + message);
 }
 
-var message = howdy('Kyle Maxey', 'Welcome to my site!');
-console.log(message);
+howdy('Kyle Maxey', 'Welcome to my site!');
 
 //Function Expression
 
 var numba = function (string) {
     if (string.length < 7) {
-        return ('What a short little word!');
+        console.log('What a short little word!');
     } else if (string.length > 7) {
-        return ("I'm sorry, but that's too many to count.");
+        console.log("I'm sorry, but that's too many to count.");
     } else {
-        return ('7, what a perfect choice!');
+        console.log('7, what a perfect choice!');
     }
 };
 
-numba(7);
+numba('7');
 numba('seventy');
 numba('university');
 
