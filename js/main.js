@@ -1,40 +1,9 @@
+//Ice Cream Flavors
+
 var icecream = ['Cookie Dough', 'Neapolitan', 'Mint Chocolate Chip'];
 icecream.push('Caramel Crunch');
 
-/* var trump = {
-    firstName: 'Donald',
-    lastName: 'Trump',
-    termLength: '4 Years',
-    yearsOfPresidency: '2017'
-};
-
-var obama = {
-    firstName: 'Barack',
-    lastName: 'Obama',
-    termLength: '8 Years',
-    yearsOfPresidency: '2009-2017'
-};
-
-var wbush = {
-    firstName: 'George W.',
-    lastName: 'Bush',
-    termLength: '8 Years',
-    yearsOfPresidency: '2001-2009'
-};
-
-var clinton = {
-    firstName: 'Bill',
-    lastName: 'Clinton',
-    termLength: '8 Years',
-    yearsOfPresidency: '1993-2001'
-};
-
-var hbush = {
-    firstName: 'George H. W.',
-    lastName: 'Bush',
-    termLength: '4 Years',
-    yearsOfPresidency: '1989-1993'
-}; */
+//Presidential Array
 
 var presidents = [
     {firstName: 'Donald', lastName: 'Trump', termLength: '4 Years', yearsOfPresidency: '2017'},
@@ -67,12 +36,6 @@ var numba = function (string) {
     }
 };
 
-(numba(7));
-(numba('seventy'));
-(numba('university'));
-
-/* Could display invoked functions using:
-
-console.log(numba(7));
-console.log(numba('seventy'));
-console.log(numba('university')); */
+numba(7);
+numba('seventy');
+numba('university');
